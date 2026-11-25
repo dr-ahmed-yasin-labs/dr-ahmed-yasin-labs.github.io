@@ -172,9 +172,9 @@ html.js .rv{opacity:0;transform:translateY(22px);transition:opacity .6s ease,tra
 </div></div></div></section>
 
 <section id="home"><div class="w"><h2>اطلب زيارة منزلية</h2>
-<form onsubmit="event.preventDefault();location.href='https://wa.me/201050370763?text='+encodeURIComponent('طلب زيارة منزلية\nالاسم: '+this.n.value+'\nرقم التليفون: '+this.p.value+'\nالمنطقة: '+this.a.value+'\nالعنوان بالتفصيل: '+this.ad.value+'\nالتحاليل: '+this.t.value)">
-<input name="n" placeholder="الاسم" required autocomplete="name"><input name="p" type="tel" inputmode="tel" placeholder="رقم التليفون" required autocomplete="tel"><input name="a" placeholder="المنطقة" required><input name="ad" placeholder="العنوان بالتفصيل (الشارع، العمارة، الدور، الشقة)" required autocomplete="street-address">
-<textarea name="t" placeholder="التحاليل المطلوبة"></textarea><button>ابعت الطلب على واتساب</button></form>
+<form onsubmit="event.preventDefault();location.href='https://wa.me/201050370763?text='+encodeURIComponent('طلب زيارة منزلية\nالاسم: '+this.n.value+'\nالسن: '+this.g.value+'\nرقم التليفون: '+this.p.value+'\nالمنطقة: '+this.a.value+'\nالعنوان بالتفصيل: '+this.ad.value+'\nميعاد السحب المناسب: '+this.tm.value+'\nالتحاليل: '+this.t.value)">
+<input name="n" placeholder="الاسم" required autocomplete="name"><input name="g" type="number" inputmode="numeric" min="0" max="120" placeholder="السن" required><input name="p" type="tel" inputmode="tel" placeholder="رقم التليفون" required autocomplete="tel"><input name="a" placeholder="المنطقة" required><input name="ad" placeholder="العنوان بالتفصيل (الشارع، العمارة، الدور، الشقة)" required autocomplete="street-address">
+<input name="tm" placeholder="ميعاد السحب المناسب (مثلاً: الصبح بدري، أو بعد العصر)" required><textarea name="t" placeholder="التحاليل المطلوبة"></textarea><button>ابعت الطلب على واتساب</button></form>
 <p class="note">بعد ما الواتساب يفتح، تقدر تبعت صورة روشتة الدكتور أو ورقة طلب التحاليل في نفس المحادثة.</p>
 <p class="note">الطلب بيوصلنا على واتساب علطول، من غير أي حساب أو تكلفة.</p></div></section>
 
